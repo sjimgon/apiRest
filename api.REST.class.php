@@ -21,7 +21,7 @@ class apiRest{
         //SHOW      GET             arrayUri[0] / id(arrayUri[1])              //Obtener un registro por id
         //STORE     POST            arrayUri[0] / store                        //Formulario para crear un registro
         //UPDATE    PUT(POST)       arrayUri[0] / update / id(arrayUri[2])     //Actualizar un registro con los datos procedentes de un formulario -> No es posible mediante un formulario, utilizaremos POST
-        //DELETE    DELETE(post)    arrayUri[0] / destroy / id(arrayUri[2])    //Eliminar un registro -> No es posible mediante un formulario, utilizaremos POST
+        //DELETE    DELETE(POST)    arrayUri[0] / destroy / id(arrayUri[2])    //Eliminar un registro -> No es posible mediante un formulario, utilizaremos POST
         
         switch ($method) {
             case 'GET':
